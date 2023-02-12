@@ -20,4 +20,7 @@ apt install apt-transport-https
 apt update
 apt install code -y
 
+#Caso venha usar serviços da Google Firebase CLI
+npm i -g firebase-tools -y
+
 
