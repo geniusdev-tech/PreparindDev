@@ -1,8 +1,35 @@
-# Install the basics in Linux to study development
-<p>Download install.sh and unzip it into the downloads folder</p>
-<hr>
-<p>In the Terminal, inside downloads, put the <strong>command : sudo chmod 777 install.sh</strong></p>
-<hr>
-<p>Then the <strong>command : ./install.sh</strong></p>
-<hr>
-<p>End</p>
+# DevSecOps Installation Script
+
+Este script em Shell instala os principais softwares necessários para desenvolvedores DevSecOps em uma distribuição Linux. Inclui ferramentas para desenvolvimento web, mobile, desktop e cloud.
+
+## Softwares Instalados
+
+- Docker
+- Docker Compose
+- Kubernetes (kubectl)
+- Minikube
+- Helm
+- Ansible
+- Terraform
+- Jenkins
+- Visual Studio Code (VSCode)
+- Git
+- Node.js
+- npm
+- Yarn
+- Python
+- pip
+- Firebase CLI
+
+## Pré-requisitos
+
+- Distribuição Linux baseada em Debian (ex.: Ubuntu)
+- Permissões de superusuário (root)
+
+## Como Usar
+
+1. Clone este repositório ou copie o conteúdo do script.
+2. Execute o script com permissões de superusuário:
+
+```bash
+sudo bash install-devsecops.sh
